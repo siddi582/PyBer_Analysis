@@ -37,7 +37,8 @@ The PyBer summary DataFrame is formatted as shown in the example.
 A DataFrame was created using the groupby() function on the "type" and "date" columns, and the sum() method is applied on the "fare" column to show the total fare amount for each date and time.
 A DataFrame was created using the pivot() function where the index is the "date," the columns are the city "type," and the values are the "fare."
 
-![Groupby](https://user-images.githubusercontent.com/111712209/194176918-db08c7c4-9abf-42fa-b686-0289af873194.png)
+![Groupby](https://user-images.githubusercontent.com/111712209/194177094-7169c5bb-b7dd-42a4-a8ae-12be5f929c80.png)
+
 
 
 A DataFrame was created using the loc method on the date range: 2019-01-01 through 2019-04-29.
