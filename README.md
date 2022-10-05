@@ -15,7 +15,7 @@ Data File: file.csv
 Software: Matplotli 3.2.2, Python 3.9, Visual Studio Code 1.50.0, Anaconda 4.8.5, Jupyter Notebook 6.1.4, Pandas
 For more information, read the Documentation on Python data types.
 
-## DELIVERABLE 1: A Ride-Sharing Summary DataFrame by Bity Type
+## DELIVERABLE 1: A Ride-Sharing Summary DataFrame by City Type
 
 *A detail analysis of:
 The total number of rides for each city type is retrieved.
