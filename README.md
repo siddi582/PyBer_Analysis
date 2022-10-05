@@ -15,7 +15,7 @@ Data File: file.csv
 Software: Matplotli 3.2.2, Python 3.9, Visual Studio Code 1.50.0, Anaconda 4.8.5, Jupyter Notebook 6.1.4, Pandas
 For more information, read the Documentation on Python data types.
 
-**DELIVERABLE 1: A Ride-Sharing Summary DataFrame by Bity Type
+## DELIVERABLE 1: A Ride-Sharing Summary DataFrame by Bity Type
 
 *A detail analysis of:
 The total number of rides for each city type is retrieved.
@@ -28,7 +28,7 @@ A PyBer summary DataFrame is created.
 The PyBer summary DataFrame is formatted as shown in the example.
 ![PyBer_Summary](https://user-images.githubusercontent.com/111712209/194167359-bb2d65eb-9853-4cf0-968c-4af6a7706786.png)
 
-**Deliverable 2: A multiple-line chart of total fares for each city type
+## DELIVERABLE 2: A multiple-line chart of total fares for each city type
 
 A DataFrame was created using the groupby() function on the "type" and "date" columns, and the sum() method is applied on the "fare" column to show the total fare amount for each date and time.
 A DataFrame was created using the pivot() function where the index is the "date," the columns are the city "type," and the values are the "fare."
@@ -40,8 +40,8 @@ A DataFrame was created using the resample() function in weekly bins and shows t
 An annotated chart showing the total fares by city type is created and saved to the "analysis" folder.
 ![Analysis_folder](https://user-images.githubusercontent.com/111712209/194171225-d23b848a-8480-48c9-989a-69ea68d36bf5.png)
 
-**DELIVERABLE 3: A written report for the PyBer Analysis
-Analysis
+## DELIVERABLE 3: A written report for the PyBer Analysis
+
 The written analysis has the following:
 
 #Overview of the analysis:
