@@ -5,9 +5,9 @@ V. Isualize has given a brand-new assignment. Using Python skills and knowledge 
 This new assignment consists of two technical analysis deliverables and a written report to present your results. 
 
 
-*Deliverable 1: A ride-sharing summary DataFrame by city type
- Deliverable 2: A multiple-line chart of total fares for each city type
- Deliverable 3: A written report for the PyBer analysis (README.md)
+Deliverable 1: A ride-sharing summary DataFrame by city type
+Deliverable 2: A multiple-line chart of total fares for each city type
+Deliverable 3: A written report for the PyBer analysis (README.md)
 
 ###### Resources and Before Start Notes:
 Data Source: PyBer_Challenge_starter_code.ipynb named later as PyBer_Challenge.ipynb
@@ -21,9 +21,13 @@ For more information, read the Documentation on Python data types.
 The total number of rides for each city type is retrieved.
 
 The total number of drivers for each city type is retrieved.
+
 The sum of the fares for each city type is retrieved.
+
 The average fare per ride for each city type is calculated.
+
 The average fare per driver for each city type is calculated.
+
 A PyBer summary DataFrame is created.
 The PyBer summary DataFrame is formatted as shown in the example.
 ![PyBer_Summary](https://user-images.githubusercontent.com/111712209/194167359-bb2d65eb-9853-4cf0-968c-4af6a7706786.png)
@@ -46,7 +50,7 @@ The written analysis has the following:
 
 #Overview of the analysis:
 The purpose of the new analysis is:
-Results: To analyze and discover trends and create a complete overview of the Ride-Sharing data by city type which includes charts from Matplotlib libraries such as Line, Bar, Scatter, Bubble, Pie, and box-and-whisker plots. Then we determine the mean, median and mode using Pandas, NumPy and SciPy statistics. Our Final Analysis will show distinct line graphs of total weekly fares for each city type. 
+ To analyze and discover trends and create a complete overview of the Ride-Sharing data by city type which includes charts from Matplotlib libraries such as Line, Bar, Scatter, Bubble, Pie, and box-and-whisker plots. Then we determine the mean, median and mode using Pandas, NumPy and SciPy statistics. Our Final Analysis will show distinct line graphs of total weekly fares for each city type. 
 
 ** 2. Results
 There is a description of the differences in ride-sharing data among the different city types. Ride-sharing data include the total rides, total drivers, total fares, average fare per ride and driver, and total fare by city type. 
