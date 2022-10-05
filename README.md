@@ -1,7 +1,7 @@
-*Background
+# Background
 V. Isualize has given a brand-new assignment. Using Python skills and knowledge of Pandas, I will create a summary DataFrame of the ride-sharing data by city type. Then, using Pandas and Matplotlib, I will create a multiple-line graph that shows the total weekly fares for each city type. Finally, a written report summarizes how the data differs by city type and how those differences can be used by decision-makers at PyBer.
 
-*What You'll See
+# What You'll See
 This new assignment consists of two technical analysis deliverables and a written report to present your results. 
 
 
@@ -9,7 +9,7 @@ This new assignment consists of two technical analysis deliverables and a writte
  Deliverable 2: A multiple-line chart of total fares for each city type
  Deliverable 3: A written report for the PyBer analysis (README.md)
 
-**Resources and Before Start Notes:
+###### Resources and Before Start Notes:
 Data Source: PyBer_Challenge_starter_code.ipynb named later as PyBer_Challenge.ipynb
 Data File: file.csv
 Software: Matplotli 3.2.2, Python 3.9, Visual Studio Code 1.50.0, Anaconda 4.8.5, Jupyter Notebook 6.1.4, Pandas
