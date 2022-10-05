@@ -1,21 +1,47 @@
-#Background
+**Background
 V. Isualize has given a brand-new assignment. Using Python skills and knowledge of Pandas, I will create a summary DataFrame of the ride-sharing data by city type. Then, using Pandas and Matplotlib, I will create a multiple-line graph that shows the total weekly fares for each city type. Finally, a written report summarizes how the data differs by city type and how those differences can be used by decision-makers at PyBer.
 
-##What You'll See
+*What You'll See
 This new assignment consists of two technical analysis deliverables and a written report to present your results. 
 
-Deliverable 1: A ride-sharing summary DataFrame by city type
-Deliverable 2: A multiple-line chart of total fares for each city type
-Deliverable 3: A written report for the PyBer analysis (README.md)
 
-###Resources and Before Start Notes:
+**Deliverable 1: A ride-sharing summary DataFrame by city type
+  Deliverable 2: A multiple-line chart of total fares for each city type
+  Deliverable 3: A written report for the PyBer analysis (README.md)
+
+**Resources and Before Start Notes:
 Data Source: PyBer_Challenge_starter_code.ipynb named later as PyBer_Challenge.ipynb
 Data File: file.csv
 Software: Matplotli 3.2.2, Python 3.9, Visual Studio Code 1.50.0, Anaconda 4.8.5, Jupyter Notebook 6.1.4, Pandas
 For more information, read the Documentation on Python data types.
 
+**DELIVERABLE 1: A Ride-Sharing Summary DataFrame by Bity Type
+
+*A detail analysis of:
+The total number of rides for each city type is retrieved.
+
+The total number of drivers for each city type is retrieved.
+The sum of the fares for each city type is retrieved.
+The average fare per ride for each city type is calculated.
+The average fare per driver for each city type is calculated.
+A PyBer summary DataFrame is created.
+The PyBer summary DataFrame is formatted as shown in the example.
+![PyBer_Summary](https://user-images.githubusercontent.com/111712209/194167359-bb2d65eb-9853-4cf0-968c-4af6a7706786.png)
+
+**Deliverable 2: A multiple-line chart of total fares for each city type
+
+A DataFrame was created using the groupby() function on the "type" and "date" columns, and the sum() method is applied on the "fare" column to show the total fare amount for each date and time.
+A DataFrame was created using the pivot() function where the index is the "date," the columns are the city "type," and the values are the "fare."
+
+A DataFrame was created using the loc method on the date range: 2019-01-01 through 2019-04-29.
+A DataFrame was created using the resample() function in weekly bins and shows the sum of the fares for each week.
+![PyBer_Summary](https://user-images.githubusercontent.com/111712209/194171128-c76d07c7-6bea-49e5-93ae-b9620ef789b8.png)
+
+An annotated chart showing the total fares by city type is created and saved to the "analysis" folder.
+![Analysis_folder](https://user-images.githubusercontent.com/111712209/194171225-d23b848a-8480-48c9-989a-69ea68d36bf5.png)
+
 **DELIVERABLE 3: A written report for the PyBer Analysis
-#Analysis
+Analysis
 The written analysis has the following:
 
 #Overview of the analysis:
@@ -42,12 +68,13 @@ There is a statement summarizing three business recommendations to the CEO for a
 
 1)Our analysis indicates that there are many good opportunities to expand the business in rural and suburban city, including hiring drivers to operate and expose business in rural and suburban cities. This can be deduced by examining our charts and figures. Lets take a look:
 
+From the data shown below, we can see there is a larger use of PyBer ridesharing in urban cities and more drivers as well, concluding the majority of PyBer's revenue comes from urban areas.
 $ of Total Drivers by City Type 
 ![Fig8](https://user-images.githubusercontent.com/111712209/193998851-a2924d4c-1a2c-45f8-bfd6-b6270939a3dc.png)
 
-2)Since the Urban cities fare is the most consistent and rated higher, this will give many business opportunities to expand rides 
+2)Since the Urban cities fare is the most consistent with drivers and rated higher, this will give many business opportunities to expand rides. On the other hand, the cost for using Pyber is greater in rural cities then urban cities therefore discouraging riders due to the high fares 
 % of Total Fares by City Type
 ![Fig5](https://user-images.githubusercontent.com/111712209/194003458-f2999c46-c1f2-4e2b-8df2-3dc67cc9db15.png)
 
-3) The Rural cities is the lowest of the two city types(Urban and Suburban). This is shown from the distance between fares and increase in business in other sectors on the line graph. Since there is room for growth, an expansion of fares would assist the company in gaining financially and benefitting their data.
+3) The Rural cities is the lowest of the two city types(Urban and Suburban).  Since there is room for growth, an expansion of fares would assist the company in gaining financially and benefitting their data. Drivers in rural cities will earn more as a result even though this may discourage potential drivers from working with PyBer in other cities due to the low fare per driver 
  ![PyBer_fare_summary](https://user-images.githubusercontent.com/111712209/194004114-aa270946-584e-44e8-9176-85779976344d.png)
