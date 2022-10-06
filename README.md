@@ -84,7 +84,7 @@ $ of Total Drivers by City Type
 % of Total Fares by City Type
 ![Fig5](https://user-images.githubusercontent.com/111712209/194003458-f2999c46-c1f2-4e2b-8df2-3dc67cc9db15.png)
 
-3) The Rural cities is the lowest of the two city types(Urban and Suburban).  Since there is room for growth, an expansion of fares would assist the company in gaining financially and benefitting their data. Drivers in rural cities will earn more as a result even though this may discourage potential drivers from working with PyBer in other cities due to the low fare per driver 
+3) The Rural cities is the lowest of the two city types(Urban and Suburban).  Since there is room for growth, an expansion of fares would assist the company in gaining financially and benefitting their data. Drivers in rural cities will earn more as a result even though this may discourage potential drivers from working with PyBer in other cities due to the low fares per driver
  ![PyBer_fare_summary](https://user-images.githubusercontent.com/111712209/194004114-aa270946-584e-44e8-9176-85779976344d.png)
  
  In Conclusion, PyBer's ridesharing services vary significantly in Rural, Suburban and Urban cities based on the data above displaying the number of rides, drivers and fares per city and the high amount of usage of PyBer's services in urban cities.
