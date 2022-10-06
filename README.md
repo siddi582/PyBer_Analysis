@@ -22,10 +22,15 @@ For more information, read the Documentation on Python data types.
 
 *A detail analysis of:
 The total number of rides for each city type is retrieved.
+![Fig6](https://user-images.githubusercontent.com/111712209/194261145-f6d6e483-4016-4b26-95b5-de365bcfe1a5.png)
+
 
 The total number of drivers for each city type is retrieved.
+![Fig8](https://user-images.githubusercontent.com/111712209/194261301-8225a1f6-3eaf-4b00-85df-e5706b041d89.png)
+
 
 The sum of the fares for each city type is retrieved.
+![Fig5](https://user-images.githubusercontent.com/111712209/194261391-8c0be6a3-5a77-4276-91fa-6273cadb77b5.png)
 
 The average fare per ride for each city type is calculated.
 
