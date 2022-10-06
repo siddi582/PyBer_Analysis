@@ -1,6 +1,9 @@
 # Background
 V. Isualize has given a brand-new assignment. Using Python skills and knowledge of Pandas, I will create a summary DataFrame of the ride-sharing data by city type. Then, using Pandas and Matplotlib, I will create a multiple-line graph that shows the total weekly fares for each city type. Finally, a written report summarizes how the data differs by city type and how those differences can be used by decision-makers at PyBer.
 
+# Summary 
+The PyBer Summary Dataframe compares PyBer's ridesharing services in three distinct cities: Rural, Suburban, and Urban. The data highlights the demand for Pybers ride-sharing among urban cities as opposed to suburban and rural. In the period January 2019-May2019 , 1625 rides are shown in urban cities while 625 rides are in Suburban cities, and 125 rides are in rural cities. These percentages are highlighted in the figures below and show Urban cities significantly benefit PyBer's platform through overall rides.
+
 # What You'll See
 This new assignment consists of two technical analysis deliverables and a written report to present your results. 
 
@@ -57,10 +60,11 @@ The purpose of the new analysis is:
  To analyze and discover trends and create a complete overview of the Ride-Sharing data by city type which includes charts from Matplotlib libraries such as Line, Bar, Scatter, Bubble, Pie, and box-and-whisker plots. Then we determine the mean, median and mode using Pandas, NumPy and SciPy statistics. Our Final Analysis will show distinct line graphs of total weekly fares for each city type. 
 
 ** 2. Results
+
 There is a description of the differences in ride-sharing data among the different city types. Ride-sharing data include the total rides, total drivers, total fares, average fare per ride and driver, and total fare by city type. 
 The Suburban fares started around $1,000, and the analysis was not profitable, fare dropped in March and in mid-April.
 The Rural fares started at around $200, the analysis shows fares increase and dropped till the end of April.
-The Urban fares start with an average of $1,800 with a consistent increase around 2,300.
+The Urban fares start with an average of $1,800 with a consistent increase around 2,400.
 
 *The PyBer DataFrame
 ![PyBer_Summary](https://user-images.githubusercontent.com/111712209/193993780-9463e634-950d-4566-8b46-27c8a310a02c.png)
